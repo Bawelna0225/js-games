@@ -1,11 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #000;
+}
 button {
 	background-color: transparent;
 	aspect-ratio: 1 / 1;
 	text-transform: uppercase;
 	font-size: 2rem;
 	cursor: pointer;
-	border: 3px solid black;
-	color: black;
+	border: 3px solid white;
+	color: white;
 }
 button:hover:not(:disabled),
 button:focus:not(:disabled) {
@@ -17,4 +27,18 @@ button.active {
 }
 button.inactive {
     opacity: .4;
+}
+.overlay {
+	position: fixed;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.90);
+	display: grid;
+	place-content: center;
+	z-index: 10;
+	font-family: monospace;
+	color: White;
+	text-align: center;
+}
+.overlay h2 {
+	color: aquamarine;
 }
