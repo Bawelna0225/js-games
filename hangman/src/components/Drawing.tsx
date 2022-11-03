@@ -1,4 +1,3 @@
-import React from 'react'
 const HEAD = <div style={{ width: '50px', height: '50px', border: '10px solid white', borderRadius: '50%', position: 'absolute', top: '40px', right: ' -30px' }} />
 const TORSO = <div style={{ width: '10px', height: '100px', backgroundColor: 'white', position: 'absolute', top: '110px', right: '0px' }} />
 const LEFT_ARM = <div style={{ width: '100px', height: '10px', backgroundColor: 'white', position: 'absolute', top: '110px', right: '0px', rotate: '-50deg', transformOrigin: 'bottom right' }} />
